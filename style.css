@@ -129,14 +129,16 @@ form .btn {
 }
 
 .sctn-b-txt  h2,
-.sctn-c-txt  h2 {
+.sctn-c-txt  h2,
+.sctn-e-txt  h2{
     font-size: 45px;
     width: 31rem;
     line-height: 1.3;
     padding: 1.3rem 0;
 }
 .sctn-b-txt  p,
-.sctn-c-txt  p  {
+.sctn-c-txt  p,
+.sctn-e-txt  p {
     font-size: 24px;
     line-height: 1.3;
 }
@@ -156,7 +158,8 @@ form .btn {
 
 
 /* section-c start */
-#sctn-c {
+#sctn-c,
+#sctn-e {
     height: 62vh;
 }
 
@@ -181,9 +184,21 @@ form .btn {
 }
 
 .sctn-d-ctn {
-    border: 1px solid green;
     max-width: 800px;
     margin-inline: auto;
     height: 100%;
+}
+
+.sctn-d-ctn h2 {
+    font-size: 45px;
+    width: 10rem;
+    line-height: 1.3;
+    padding: 4rem 0 1.3rem 0;
+}
+
+.sctn-d-ctn p {
+    font-size: 24px;
+    width: 24rem;
+    line-height: 1.3;
 }
 /* section-d end */
