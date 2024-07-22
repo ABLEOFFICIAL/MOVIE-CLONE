@@ -8,11 +8,16 @@
 
 :root {
     --red-color: red;
+    --black-color: black;
     --redhover-color: rgb(208, 3, 3);
     --white-color: white;
+    --gray-color: rgb(100, 97, 97);
 }
 
 body {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    position: relative;
     font-family: "Roboto", sans-serif;
 }
 
@@ -23,6 +28,13 @@ body {
 
 .flex {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     justify-content: center;
     align-items: center;
 }
@@ -45,6 +57,10 @@ a {
 
 li {
     list-style: none;
+}
+
+.border-btm {
+    border-bottom: 5px solid var(--gray-color);
 }
 
 /*  border: 1px solid green; */

@@ -4,6 +4,11 @@
 }
 
 #header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
     height: 80px;
     background-color: transparent;
 }
@@ -20,24 +25,51 @@
 /* header start */
 
 
-/* sctn-a start */
+/* section-a start */
 #sctn-a {
     position: relative;
-    overflow: hidden;
-    height: 65vh;
-    border: 1px solid green;
+    /* overflow: hidden; */
+    height: 72vh;
+
 }
 
 .sctn-a-ctr {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/NG-en-20240715-POP_SIGNUP_TWO_WEEKS-perspective_WEB_f1be5089-bf3d-489d-9b46-2602fabe9c70_small.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-img::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.sctn-a-text {
+    position: absolute;
+    top: 10%;
+    left: 15%;
     color: var(--white-color);
-    border: 1px solid red;
     padding: 12rem 0;
-    max-width: 1000px;
+    width: 1100px;
     margin-inline: auto;
 }
 
 .sctn-a-header {
-    font-size: 43px;
+    font-size: 45px;
+    letter-spacing: 1px;
     line-height: 2;
     text-align: center;
 }
@@ -67,6 +99,9 @@ form input {
     margin-left: 2rem;
     padding: 15px 10px;
     font-size: 16px;
+    border: 1px solid var(--gray-color);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 form input:focus {
@@ -84,7 +119,71 @@ form .btn {
     padding: 15px 25px;
     vertical-align: -3px;
 }
-.bg-img {
-    
+
+/* section-a end */
+
+
+/* section-b start */
+#sctn-b {
+    height: 67vh;
 }
-/* sctn-a end */
+
+.sctn-b-txt  h2,
+.sctn-c-txt  h2 {
+    font-size: 45px;
+    width: 31rem;
+    line-height: 1.3;
+    padding: 1.3rem 0;
+}
+.sctn-b-txt  p,
+.sctn-c-txt  p  {
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.sctn-b-img  {
+    position: relative;
+    width: min-content;
+}
+
+.sctn-b-img video {
+    position: absolute;
+    top: 21.5%;
+    left: 13%;
+    width: 29rem;
+}
+/* section-b end */
+
+
+/* section-c start */
+#sctn-c {
+    height: 62vh;
+}
+
+.sctn-c-img {
+    position: relative;
+}
+
+.sctn-c-img video {
+    position: absolute;
+    top: 73%;
+    left: 23%;
+    width: 21rem;
+    border: 2px solid var(--gray-color);
+    border-radius: 10px;
+}
+/* section-c end */
+
+
+/* section-d start */
+#sctn-d  {
+    height: 40vh;
+}
+
+.sctn-d-ctn {
+    border: 1px solid green;
+    max-width: 800px;
+    margin-inline: auto;
+    height: 100%;
+}
+/* section-d end */
