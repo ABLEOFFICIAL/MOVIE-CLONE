@@ -1,0 +1,90 @@
+/* header start */
+#header .flex {
+    justify-content: space-between;
+}
+
+#header {
+    height: 80px;
+    background-color: transparent;
+}
+
+#header nav {
+    height: 100%;
+    overflow: hidden;
+}
+
+#header li a img {
+    width: 12rem;
+    background-color: transparent;
+}
+/* header start */
+
+
+/* sctn-a start */
+#sctn-a {
+    position: relative;
+    overflow: hidden;
+    height: 65vh;
+    border: 1px solid green;
+}
+
+.sctn-a-ctr {
+    color: var(--white-color);
+    border: 1px solid red;
+    padding: 12rem 0;
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+.sctn-a-header {
+    font-size: 43px;
+    line-height: 2;
+    text-align: center;
+}
+
+.sctn-a-ctr h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.sctn-a-ctr p {
+    text-align: center;
+    line-height: 4;
+    font-size: 23px;
+}
+
+form { 
+    height: 3.5rem;
+    width: 45vw;
+    margin-inline: auto;
+}
+
+form input {
+    height: 100%;
+    width: 30rem;
+    margin-right: 4px;
+    margin-left: 2rem;
+    padding: 15px 10px;
+    font-size: 16px;
+}
+
+form input:focus {
+    outline: 2px solid var(--white-color);
+    border-radius: 4px;
+}
+
+form a {
+    font-size: 24px;
+}
+
+form .btn {
+    /* line-height: 2.5; */
+    margin-top: 3rem;
+    padding: 15px 25px;
+    vertical-align: -3px;
+}
+.bg-img {
+    
+}
+/* sctn-a end */
