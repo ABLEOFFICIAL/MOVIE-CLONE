@@ -19,15 +19,13 @@
 body {
     background-color: var(--black-color);
     color: var(--white-color);
-    position: relative;
     font-family: "Roboto", sans-serif;
 }
 
 .container {
+    width: 80%;
     max-width: 1200px;
-    min-width: 900px;
     margin-inline: auto;
-    padding: 0 2rem;
 }
 
 .flex {
@@ -36,12 +34,12 @@ body {
     align-items: center;
 }
 
-.grid {
+/* .grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-content: center;
     align-items: center;
-}
+} */
 
 .btn {
     background-color: var(--red-color);
@@ -72,7 +70,7 @@ li {
 }
 
 /* media */
-@media (max-width: 960px) {
+/* @media (max-width: 960px) {
     .grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -89,5 +87,5 @@ li {
         justify-content: space-between;
         align-items: center;
     }
-}
+} */
 /*  border: 1px solid green; */
