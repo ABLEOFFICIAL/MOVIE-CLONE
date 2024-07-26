@@ -10,3 +10,26 @@
 #header .flex {
     justify-content: space-between;
 }
+
+/* section a */
+#sctn-a {
+    height: 80vh;
+    width: 100%;
+    background: url(images/NG-en-20240715-POP_SIGNUP_TWO_WEEKS-perspective_WEB_f1be5089-bf3d-489d-9b46-2602fabe9c70_small.jpg)
+}
+
+.bg-img {
+    
+}
+
+@media (max-width: 960px) {
+    #header img {
+        width: 7rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    #header .container {
+        width: 90%;
+    }
+}
