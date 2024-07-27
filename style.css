@@ -323,6 +323,10 @@ form input:focus {
         width: 50%;
         max-width: 387px;
     }
+
+    .sctn-d-txt {
+        margin-inline: 0;
+    }
     
 
     .sctn-e-img {
