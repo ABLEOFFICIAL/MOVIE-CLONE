@@ -6,7 +6,11 @@
 
 .header-text {
     padding-bottom: 1.2rem;
-    min-width: 90%;
+    width: 90%;
+}
+
+.sctn-a-para {
+    margin-inline: auto;
 }
 
 /* header */
@@ -48,7 +52,6 @@
 }
 
 .sctn-a-text {
-    border: 1px solid green;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -59,7 +62,7 @@
 }
 
 .sctn-a-header-btm {
-    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
 }
 
 form input {
@@ -133,7 +136,6 @@ form input:focus {
     position: relative;
     width: 90%;
     order: 1;
-    border: 1px solid green;
 }
 
 .sctn-c-img img {
@@ -156,7 +158,12 @@ form input:focus {
 }
 
 #sctn-d .container {
+    width: 70%;
     padding: 3rem 0 5rem 0;
+}
+
+.sctn-d-txt {
+    margin-inline: auto;
 }
 
 /* section e */
@@ -190,7 +197,6 @@ form input:focus {
 }
 
 .sctn-f-para {
-    border: 1px solid green;
     width: 80%;
     margin-inline: auto;
     text-align: center;
@@ -200,6 +206,10 @@ form input:focus {
 
 #sctn-f form {
     text-align: center;
+}
+
+#sctn-f form a {
+    width: 50%;
 }
 
 /* footer */
@@ -277,6 +287,11 @@ form input:focus {
        flex-direction: row;
     }
 
+    .sctn-b-img,
+    .sctn-e-img {
+        width: 50%;
+    }
+
     .sctn-c-txt {
         order: 1;
     }
@@ -302,6 +317,13 @@ form input:focus {
         text-align: left;
         width: 50%;
     }
+
+    #sctn-d .header-text,
+    #sctn-d .sctn-header {
+        width: 50%;
+        max-width: 387px;
+    }
+    
 
     .sctn-e-img {
         order: 0;
