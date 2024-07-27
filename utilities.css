@@ -37,13 +37,6 @@ body {
     align-items: center;
 }
 
-/* .grid {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    justify-content: center;
-    align-items: center;
-} */
-
 .btn {
     background-color: var(--red-color);
     padding: 10px 17px;
@@ -71,27 +64,6 @@ li {
 .text-center {
     text-align: center;
 }
-
-/* media */
-/* @media (max-width: 960px) {
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 20% 80%;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-@media (min-width: 961px) and (max-width: 1200px) {
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: space-between;
-        align-items: center;
-    }
-} */
-/*  border: 1px solid green; */
 
 @media (max-width: 404px) {
     .btn {
